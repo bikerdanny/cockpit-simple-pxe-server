@@ -28,8 +28,9 @@ function update(name, port) {
       table += '</tr>';
     });
     table += '</tbody></table>';
-    content.innerHTML += name;
+    content.innerHTML += '<h2>'+name+'</h2>';
     content.innerHTML += table;
+    content.innerHTML += '<hr>';
     document.querySelectorAll(".deploy").forEach(function(element) {
       element.addEventListener("click", function(event) {
         mac = event.target.value;
