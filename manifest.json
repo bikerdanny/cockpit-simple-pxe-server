@@ -1,0 +1,10 @@
+{
+    "version": 0,
+
+    "tools": {
+        "simple-pxe-server": {
+            "label": "Simple PXE server",
+            "path": "pxe.html"
+        }
+    }
+}
